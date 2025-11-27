@@ -1,0 +1,10 @@
+name: Demo
+run-name: THIS ACTION IS RUNNNING...
+
+on: [push]
+
+jobs:
+  demo_job:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "hello world"
