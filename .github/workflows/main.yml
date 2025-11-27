@@ -7,7 +7,6 @@ jobs:
   demo_job:
     runs-on: ubuntu-latest
     steps: 
-      - run: actions/checkout
-      - run: actions/setup-dotnet
+      - uses: actions/checkout@v5
 
       
