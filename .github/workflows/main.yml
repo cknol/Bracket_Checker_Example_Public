@@ -7,4 +7,7 @@ jobs:
   demo_job:
     runs-on: ubuntu-latest
     steps: 
-      - run: echo "hello world"
+      - run: actions/checkout
+      - run: actions/setup-dotnet
+
+      
